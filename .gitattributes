@@ -1,0 +1,10 @@
+# Do not edit manually
+*.htm linguist-vendored
+* text=auto eol=lf
+
+src/**/*.ts linguist-detectable
+Cargo.lock linguist-generated
+package-lock.json linguist-generated
+
+public/index.html linguist-vendored
+*.woff2 binary
